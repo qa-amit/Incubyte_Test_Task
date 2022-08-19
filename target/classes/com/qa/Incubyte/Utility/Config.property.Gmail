@@ -1,0 +1,47 @@
+url=https://mail.google.com/mail/u/1/#inbox
+PaymentPageURL=https://prueba.undostres.com.mx/payment.php
+Browser_Name=Chrome
+InBox_URL=https://mail.google.com/mail/u/0/#inbox
+
+*************** Sample Test Data *****************************
+
+email=testincubytet@gmail.com
+password=Virtus@0120!@#$%
+
+email1=ak199430@gmail.com
+email2=199430ak@gmail.com
+email3=test@gmail.com
+
+Subject=Test Automation Task
+MessageBody=This is sample message body
+
+
+*********** Locators of SignIn page ******************
+
+Enter_Email=//input[@id='identifierId']
+Next_Btn=//span[text()='Next']
+Enter_password=//input[@name='password']
+Gmail=(//a[@title='Gmail'])[1]
+
+
+************** Locators of Compose email  *************
+
+compose_Btn=//div[contains(text(),'Compose')]
+New_MSG_Frame=//span[contains(text(),'New Message')]
+SendBtn=(//div[contains(text(),'Send')])[1]
+TO=//textarea[@aria-label='To']
+To_input=//textarea[@aria-label='To']
+CC=(//span[contains(text(),'Cc')])[1]
+CC_input=//textarea[@aria-label='Cc']
+BCC=(//span[contains(text(),'Bcc')])[1]
+Bcc_input=//textarea[@aria-label='Bcc']
+Sub=//input[@name='subjectbox']
+
+Body=//div[@aria-label='Message Body']
+Attachment=//div[@data-tooltip='Attach files']
+InsertImageIcon=//div[@data-tooltip='Insert photo']
+SendBtn=(//div[contains(text(),'Send')])[2]
+
+*********** Locators of Sent page ******************
+
+SentBtn=//a[contains(text(),'Sent')]

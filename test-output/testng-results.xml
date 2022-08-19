@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="9" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-08-19T15:35:24 IST" name="GnailAutomation" finished-at="2022-08-19T15:35:44 IST" duration-ms="20085">
+    <groups>
+    </groups>
+    <test started-at="2022-08-19T15:35:24 IST" name="GmailComposeAutomation" finished-at="2022-08-19T15:35:44 IST" duration-ms="20085">
+      <class name="com.qa.Incubyte.Test.MailCompose">
+        <test-method signature="SignInPage()[pri:0, instance:com.qa.Incubyte.Test.MailCompose@7722c3c3]" started-at="2022-08-19T15:35:24 IST" name="SignInPage" finished-at="2022-08-19T15:35:35 IST" duration-ms="11425" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignInPage -->
+        <test-method signature="checkComposeFrame()[pri:1, instance:com.qa.Incubyte.Test.MailCompose@7722c3c3]" started-at="2022-08-19T15:35:35 IST" name="checkComposeFrame" finished-at="2022-08-19T15:35:35 IST" duration-ms="383" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkComposeFrame -->
+        <test-method signature="EnterEmailsAddress()[pri:2, instance:com.qa.Incubyte.Test.MailCompose@7722c3c3]" started-at="2022-08-19T15:35:35 IST" name="EnterEmailsAddress" finished-at="2022-08-19T15:35:38 IST" duration-ms="2752" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterEmailsAddress -->
+        <test-method signature="EnterSubject()[pri:3, instance:com.qa.Incubyte.Test.MailCompose@7722c3c3]" started-at="2022-08-19T15:35:38 IST" name="EnterSubject" finished-at="2022-08-19T15:35:38 IST" duration-ms="100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterSubject -->
+        <test-method signature="EnterMessageBody()[pri:4, instance:com.qa.Incubyte.Test.MailCompose@7722c3c3]" started-at="2022-08-19T15:35:38 IST" name="EnterMessageBody" finished-at="2022-08-19T15:35:38 IST" duration-ms="175" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterMessageBody -->
+        <test-method signature="Attachfile()[pri:5, instance:com.qa.Incubyte.Test.MailCompose@7722c3c3]" started-at="2022-08-19T15:35:38 IST" name="Attachfile" finished-at="2022-08-19T15:35:41 IST" duration-ms="2420" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Attachfile -->
+        <test-method signature="SendMail()[pri:7, instance:com.qa.Incubyte.Test.MailCompose@7722c3c3]" started-at="2022-08-19T15:35:41 IST" name="SendMail" finished-at="2022-08-19T15:35:43 IST" duration-ms="2463" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SendMail -->
+        <test-method signature="VerifyEmailSent()[pri:8, instance:com.qa.Incubyte.Test.MailCompose@7722c3c3]" started-at="2022-08-19T15:35:43 IST" name="VerifyEmailSent" finished-at="2022-08-19T15:35:44 IST" duration-ms="314" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyEmailSent -->
+      </class> <!-- com.qa.Incubyte.Test.MailCompose -->
+    </test> <!-- GmailComposeAutomation -->
+  </suite> <!-- GnailAutomation -->
+</testng-results>
